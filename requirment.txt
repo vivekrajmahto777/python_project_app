@@ -1,3 +1,3 @@
 flask == 2.0.1
 pytest
-werzeug == 2.0.0
+werkzeug == 2.0.0
