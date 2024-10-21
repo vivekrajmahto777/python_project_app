@@ -15,5 +15,5 @@ def client(app):
 def test_home(client):
     response = client.get('/')
     assert response.status_code == 200
-    expected_text = 'Hello Vivek'
+    expected_text = 'Hello geeks how are you this is my flask server'
     assert expected_text.encode() in response.data
