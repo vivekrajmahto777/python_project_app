@@ -15,5 +15,5 @@ def client(app):
 def test_home(client):
     response = client.get('/')
     assert response.status_code == 200
-    expected_text = 'Hey welcome to my sample python-flask Application Version:0.0.1 latest :-('
+    expected_text = 'Hey welcome to my sample python-flask server application'
     assert expected_text.encode() in response.data
