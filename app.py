@@ -8,7 +8,7 @@ def create_app():
     
     @app.route('/')
     def home():
-        return 'Hey welcome to my sample python-flask Application Version:0.0.1 latest :-('
+        return 'Hey welcome to my sample python-flask server application'
     
     return app
 if __name__ == '__main__':
